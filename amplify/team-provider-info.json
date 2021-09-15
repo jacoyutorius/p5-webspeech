@@ -1,0 +1,23 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-p5webspeech-dev-220303-authRole",
+            "UnauthRoleArn": "arn:aws:iam::865422985541:role/amplify-p5webspeech-dev-220303-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::865422985541:role/amplify-p5webspeech-dev-220303-authRole",
+            "Region": "ap-northeast-1",
+            "DeploymentBucketName": "amplify-p5webspeech-dev-220303-deployment",
+            "UnauthRoleName": "amplify-p5webspeech-dev-220303-unauthRole",
+            "StackName": "amplify-p5webspeech-dev-220303",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:865422985541:stack/amplify-p5webspeech-dev-220303/462f51b0-1625-11ec-a3f5-0efee4c0f8ad",
+            "AmplifyAppId": "dokpzhjmgub9p"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "dokpzhjmgub9p",
+                    "type": "cicd"
+                }
+            }
+        }
+    }
+}
