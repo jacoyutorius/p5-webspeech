@@ -22,14 +22,14 @@ const sketch = (p: p5) => {
 
   p.draw = () => {
     const message = messages.shift();
-
-    console.log({messages});
-
+    
     if (message) {
+      console.log({message});
+
       p.background("#111");
       p.textSize(32);
       p.fill(p.color("#fff"));
-      p.text(message[0].transcript, innerWidth/2, innerHeight/2);
+      p.text(message[0].transcript, innerWidth/2 - 50, innerHeight/2);
     }
   }
 
